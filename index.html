@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spheres web solutions display</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <nav class="zone blue sticky">
+      <ul class="main-nav">
+          <li><a href="">Spheres Web Solutions</a></li>
+  </ul>
+  </nav>
+  <div class="container">
+    <div class="cover">
+      <h2>This system needs to connect to a database, but here are some screenshots of the virtual deployment</h2><br>
+      <div class="galleryContainer">
+        <div class="slideShowContainer">
+            <div id="playPause" onclick="playPauseSlides()"></div>
+            <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+            <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+            <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+            <div class="imageHolder">
+                <img src="./images/login.jpg">
+                <p class="captionText">General Login Screen - 01</p>
+            </div>
+            <div class="imageHolder">
+                <img src="./images/landing page.jpg">
+                <p class="captionText">Landing page - 02</p>
+            </div>
+            <div class="imageHolder">
+                <img src="./images/group chat.jpg">
+                <p class="captionText">Group Chat - 03</p>
+            </div>
+            <div class="imageHolder">
+                <img src="./images/my contacts.jpg">
+                <p class="captionText">All your available contacts - 04</p>
+            </div>
+        </div>
+        <div id="dotsContainer"></div>
+    </div>
+    </div>
+  </div>
+  <div class="zone blue grid-wrapper">
+    <div class="box zone"><img src="./images/group chat.jpg"></div>
+    <div class="box zone"><img src="./images/landing page.jpg"></div>
+    <div class="box zone"><img src="./images/login.jpg"></div>
+    <div class="box zone"><img src="./images/my contacts.jpg"></div>
+  </div>
+  <footer class="zone yellow">created by Tyron Aricum 2020</footer>
+</div>
+
+<script src="remindersSlideshow.js"></script>
+</body>
+</html>
